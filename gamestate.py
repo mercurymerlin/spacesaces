@@ -96,7 +96,6 @@ class GameState:
 
         self.spaces[space_index] = (source_row, source_col)  # Update empty space location
         self.card_locations[move_card] = (space_row, space_col)
-        self.card_locations[(None, None)] = (source_row, source_col)  # Or delete if you prefer
 
         # If ace was moved, remove it from the open aces list
         if move_card[0] == 'A':
