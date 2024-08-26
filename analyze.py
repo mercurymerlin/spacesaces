@@ -17,7 +17,7 @@
 import sqlite3
 import sys
 
-from gamestate_new import GameState
+from gamestate import GameState
 
 
 def clear_tables(conn):

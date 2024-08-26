@@ -18,7 +18,7 @@ import sqlite3
 import csv
 import os
 
-from gamestate_new import GameState
+from gamestate import GameState
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')

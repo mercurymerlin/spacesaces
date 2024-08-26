@@ -16,7 +16,7 @@
 
 import os
 
-from gamestate_new import GameState
+from gamestate import GameState
 
 def main():
     msg = ""
