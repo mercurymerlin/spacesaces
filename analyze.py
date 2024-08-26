@@ -49,20 +49,22 @@ def execute_query(conn, query, params=None):
 
 
 def main():
-    db_path = 'C:/Users/John/Database/GameTree3.db' # Replace with your actual database path
+    db_path = os.path.expanduser('~/Database/GameTree.db') # Replace with your actual database path
     db_path_read = 'file:' + db_path + '?readonly'
+
     """Establish connections to the SQLite database."""
     try:
-        # read_conn.connect(db_path, flags=sqlite3.SQLITE_OPEN_READONLY)
-        # print("Connected for read to the database.")
 
         write_conn = sqlite3.connect(db_path)
-        write_conn.execute("PRAGMA journal_mode=WAL;")
+
+        # write_conn.execute("PRAGMA journal_mode=WAL;")
         write_conn.execute("PRAGMA journal_mode=MEMORY;")
         write_conn.execute("PRAGMA synchronous=NORMAL;")
-        # write_conn.execute("PRAGMA cache_size=-10000;")
+        write_conn.execute("PRAGMA cache_size=-1048576;")
+        # write_conn.execute("PRAGMA mmap_size=30064771072;")  # 28GB mmap
         write_conn.execute("PRAGMA busy_timeout=30000;")
-        write_conn.execute("PRAGMA temp_store=MEMORY;")
+        # write_conn.execute("PRAGMA page_size=32768;")
+
         print("Connected for write to the database.")
 
     except sqlite3.Error as e:
