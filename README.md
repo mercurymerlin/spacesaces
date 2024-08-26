@@ -1,25 +1,23 @@
 # Project Name
 
-Brief description of your project.
+Spaces and Aces Solitaire
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+To be added
 
 ## Installation
 
-Describe how to install your project.
+To be added
 
 ## Usage
 
-Provide examples of how to use your project.
+Examples of how to use the project.
 
 ## Contributing
 
-If you're open to contributions, explain how others can contribute to your project.
+How others can contribute to the project.
 
 ## License
 
-Specify the license under which your project is released.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE.TXT) file for details.
