@@ -95,6 +95,8 @@ class GameState:
         self.board[source_row][source_col] = None
 
         self.spaces[space_index] = (source_row, source_col)  # Update empty space location
+        self.card_locations[move_card] = (space_row, space_col)
+        self.card_locations[(None, None)] = (source_row, source_col)  # Or delete if you prefer
 
         # If ace was moved, remove it from the open aces list
         if move_card[0] == 'A':
@@ -164,11 +166,13 @@ class GameState:
         self.num_moves = 0
         self.line_len = [0, 0, 0, 0]
         self.tot_line_len = 0
+        self.card_locations = {}  # New dictionary to store card locations
 
         # Deal cards to the board
         for row in range(4):
             for col in range(1, 14): # Start dealing from column 1
                 card = self.deck.pop()
+                self.card_locations[card] = (row, col)  # Store the location
                 if card[0] == 'A':
                     self.aces.append((row, col))
                 self.board[row][col] = card
@@ -223,6 +227,7 @@ class GameState:
                         game.spaces.append((row_index, col_index))
                     else:
                         card = (card_str[0], card_str[1])
+                        game.card_locations[card] = (row_index, col_index)  # Store the location
                         if card[0] == 'A' and col_index > 0:
                             game.aces.append((row_index, col_index))
                     row.append(card)
