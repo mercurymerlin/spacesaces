@@ -1,5 +1,5 @@
 # SpacesAces - GameState class for managing the game's state and rules
-#              Archive version for reference - use gamestate_new for current version
+#              Archive version for reference - use the current version
 # Copyright (C) 2024 John Barron <jbarronuk@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
