@@ -16,13 +16,24 @@
 
 import random
 import copy
+from typing import Tuple, List, Dict, Optional
 
 class GameState:
+    """
+    Manages the state and rules of a Spaces and Aces Solitaire game.
+
+    Key components:
+    - board: 2D list representing the game layout
+    - spaces: List of empty space positions
+    - moves: Available moves for each space
+    - aces: Positions of aces on the board
+    """
+
     suits = ['H', 'D', 'C', 'S']
     ranks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'J', 'Q', 'K']
 
-    def calc_line_len(self):
-
+    def calc_line_len(self) -> None:
+        """ Calculate maximum moves down the line of each space to block """
         self.num_moves = sum(1 for moves in self.moves if moves)
         self.line_len = [0, 0, 0, 0]
         self.tot_line_len = 0
@@ -51,6 +62,7 @@ class GameState:
                             temp_card = calc_game.board[calc_row][temp_col]
                     # Break on blocking King found
                     if temp_card:
+                        # temp_card cannot be None here
                         if temp_card[0] == 'K':
                             temp_col = 0
                             break
@@ -80,7 +92,8 @@ class GameState:
                 else:
                     break
 
-    def make_move(self, space_index, move_index):
+    def make_move(self, space_index: int, move_index: int) -> None:
+        """Execute a move in the game."""
         # Raise error if no move available
         if self.moves[space_index][move_index] is None:
             raise TypeError("No move available")
@@ -104,10 +117,11 @@ class GameState:
         for i in range(4):
             self.update_moves(i)
 
-    def update_moves(self, check_index):
+    def update_moves(self, check_index: int) -> None:
+        """ Reconstruct available moves for each space """
         check_row, check_col = self.spaces[check_index]
-        # moves are already set if it's an initial space
 
+        # moves are already set if it's an initial space
         if check_col == 0:
             self.moves[check_index] = self.aces.copy()
 
@@ -123,13 +137,15 @@ class GameState:
                     next_card = (self.ranks[next_rank_ix], prev_card[1])  # Rank, suit
                     self.moves[check_index] = self.find_card(next_card)
 
-    def is_game_over(self):
+    def is_game_over(self) -> bool :
+        """Check if there are any available moves"""
         for moves in self.moves:
             if moves:
                 return False
         return True
 
-    def calculate_score(self):
+    def calculate_score(self) -> int:
+        """Return the current game score."""
         total_cards = 0
         for row in range(4):
             in_sequence = 0
@@ -184,7 +200,8 @@ class GameState:
         # Find initial aces
         # self.aces = self.find_aces()
 
-    def save_game(self, filename=None):
+    def save_game(self, filename: Optional[str] = None) -> Optional[str]:
+        """ Save game to a file """
         board_str = ""
         for row in self.board:
             row_str = ' '.join(['__' if card is None else f"{card[0]}{card[1]}" for card in row])
@@ -264,22 +281,22 @@ class GameState:
         output += "\n\nScore " + str(score)
         return output
 
-    def find_empty_spaces(self):
-        empty_spaces = []
-        for row in range(4):
-            for col in range(14):
-                if self.board[row][col] is None:
-                    empty_spaces.append((row, col))
-        return empty_spaces
+    #def find_empty_spaces(self):
+    #    empty_spaces = []
+    #    for row in range(4):
+    #        for col in range(14):
+    #            if self.board[row][col] is None:
+    #                empty_spaces.append((row, col))
+    #    return empty_spaces
 
-    def find_aces(self):
-        aces = []
-        for row in range(4):
-            for col in range(14):
-                card = self.board[row][col]
-                if card and card[0] == 'A':
-                    aces.append((row, col))
-        return aces
+    #def find_aces(self):
+    #    aces = []
+    #    for row in range(4):
+    #        for col in range(14):
+    #            card = self.board[row][col]
+    #            if card and card[0] == 'A':
+    #                aces.append((row, col))
+    #    return aces
 
     def find_card(self, next_card):
         card_locn = []

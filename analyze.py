@@ -17,6 +17,7 @@
 import sqlite3
 import os
 import sys
+from typing import Tuple, List, Dict, Optional
 
 from gamestate import GameState
 
@@ -53,7 +54,8 @@ def main():
     db_path = os.path.expanduser('~/Database/GameTree.db') # Replace with your actual database path
     db_path_read = 'file:' + db_path + '?readonly'
 
-    """Establish connections to the SQLite database."""
+    # Establish connections to the database
+    write_conn = None
     try:
 
         write_conn = sqlite3.connect(db_path)
@@ -71,150 +73,152 @@ def main():
     except sqlite3.Error as e:
         print(f"Error connecting to database: {e}")
 
-    if not write_conn:
+    if write_conn is None:
         print("Failed to connect to the database.")
+        return
 
-    else:
-        # Initialize start
-        user_input = input("Clear database Y or N?: ").strip().lower()
-        if user_input == 'y':
-            clear_tables(write_conn)
+    # Initialize start
+    user_input = input("Clear database Y or N?: ").strip().lower()
+    if user_input == 'y':
+        clear_tables(write_conn)
 
-        current_game = None
-        user_input = input("Add a random start state Y or N?: ").strip().lower()
-        if user_input == 'y':
-            current_game = GameState()
+    current_game = None
+    user_input = input("Add a random start state Y or N?: ").strip().lower()
+    if user_input == 'y':
+        current_game = GameState()
 
-        if user_input == 'n':
-            filename = input("Enter filename to load: ")
-            if filename:
-                current_game = GameState.load_game(filename)
+    if user_input == 'n':
+        filename = input("Enter filename to load: ")
+        if filename:
+            current_game = GameState.load_game(filename)
 
-        search_fraction = None
-        user_input = input("Set search breadth fraction: ").strip().lower()
-        if user_input:
-            search_fraction = float(user_input.strip())
-        if not search_fraction:
-            search_fraction = 0.75 # Originally was 0.95
-        print(search_fraction)
+    search_fraction = None
+    user_input = input("Set search breadth fraction: ").strip().lower()
+    if user_input:
+        search_fraction = float(user_input.strip())
+    if not search_fraction:
+        search_fraction = 0.75 # Originally was 0.95
+    print(search_fraction)
 
-        user_input = input("Set iterations to explore: ").strip().lower()
-        num_iter = int(user_input.strip())
+    user_input = input("Set iterations to explore: ").strip().lower()
+    num_iter = int(user_input.strip())
 
-        user_input = input("Set start state to explore (0=All): ").strip().lower()
-        start_id = int(user_input.strip())
+    user_input = input("Set start state to explore (0=All): ").strip().lower()
+    start_id = int(user_input.strip())
 
-        # Insert the initial state if specified into the database
-        if current_game:
-            try:
-                # Insert the initial state into the database
-                insert_game_state(write_conn, current_game)
-                write_conn.commit()
+    # Insert the initial state if specified into the database
+    if current_game:
+        try:
+            # Insert the initial state into the database
+            insert_game_state(write_conn, current_game)
+            write_conn.commit()
 
-            except sqlite3.Error as e:
-                # If any operation fails, rollback the entire transaction
-                write_conn.rollback()
-                print(f"Error during insertion: {e}")
+        except sqlite3.Error as e:
+            # If any operation fails, rollback the entire transaction
+            write_conn.rollback()
+            print(f"Error during insertion: {e}")
 
-        next_iter = 0
+    next_iter = 0
 
-        results1 = []
-        solution_found = False
-        while next_iter < num_iter:
+    # results1 = []
+    solution_found = False
+    while next_iter < num_iter:
 
-            # Open read connection
-            try:
-                read_conn = sqlite3.connect(db_path_read, uri=True)
-                print("Connected for read to the database.")
-            except sqlite3.Error as e:
-                print(f"Error connecting to database: {e}")
+        # Open read connection
+        try:
+            read_conn = sqlite3.connect(db_path_read, uri=True)
+            print("Connected for read to the database.")
+        except sqlite3.Error as e:
+            print(f"Error connecting to database: {e}")
+            break
+
+        # Prepare the next iteration
+        if start_id == 0:
+            query = """
+            SELECT StartState, MAX(LineLenVal), MAX(DepthLvl), MAX(Score)
+            FROM GameTree
+            WHERE GameOver = '0' 
+            AND GameState NOT IN (SELECT FromState
+                                        FROM Moves)
+            GROUP BY StartState
+            """
+            results1 = execute_query(read_conn, query)
+        else:
+            query = """
+            SELECT StartState, MAX(LineLenVal), MAX(DepthLvl), MAX(Score)
+            FROM GameTree
+            WHERE GameOver = '0'
+            AND StartState = ?
+            AND GameState NOT IN (SELECT FromState
+                                        FROM Moves)
+            GROUP BY StartState  
+            """
+            results1 = execute_query(read_conn, query, (start_id, ))
+
+        print(results1)
+        if len(results1) == 0:
+            print("Search ended")
+            break
+
+        for state_id, line_len_val, max_depth, max_score in results1:
+            total_states = 0
+            total_moves = 0
+            print(f"\nState {state_id} " +
+                  f"Max Line Value {line_len_val} " +
+                  f"\nMax Depth {max_depth} Max Score {max_score} ")
+
+            query = """
+            SELECT StartState, GameState, Board, DepthLvl
+            FROM GameTree
+            WHERE GameOver = '0'
+            AND StartState = ? 
+            AND DepthLvl <= ?
+            AND LineLenVal >= ?
+            AND GameState NOT IN (SELECT FromState
+                                  FROM Moves)
+            """
+            results2 = execute_query(read_conn, query,
+                                     (state_id, max_depth, line_len_val * search_fraction))
+
+            if not results2:
+                print(f"No more states to expand at iteration {next_iter}")
                 break
 
-            # Prepare the next iteration
-            if start_id == 0:
-                query = """
-                SELECT StartState, MAX(LineLenVal), MAX(DepthLvl), MAX(Score)
-                FROM GameTree
-                WHERE GameOver = '0' 
-                AND Gamestate NOT IN (SELECT Fromstate
-                                            FROM Moves)
-                GROUP BY StartState
-                """
-                results1 = execute_query(read_conn, query)
-            else:
-                query = """
-                SELECT StartState, MAX(LineLenVal), MAX(DepthLvl), MAX(Score)
-                FROM GameTree
-                WHERE GameOver = '0'
-                AND StartState = ?
-                AND Gamestate NOT IN (SELECT Fromstate
-                                            FROM Moves)
-                GROUP BY StartState  
-                """
-                results1 = execute_query(read_conn, query, (start_id, ))
+            progress_counter = 0
+            if results2:
+                print(f"Processing iteration: {next_iter}")
+                for row in results2:
+                    start_state = row[0]
+                    state_id = row[1]
+                    current_board = row[2]
+                    current_depth = row[3]
+                    total_states += 1
+                    # Explore next state
+                    expanded, solution_found = expand_tree(write_conn, start_state, state_id, current_board, current_depth)
+                    total_moves += expanded
 
-            print(results1)
-            if len(results1) == 0:
-                print("Search ended")
-                break
+                    if solution_found:
+                        print(f"\nSolution found! Perfect score of 48 achieved.")
+                        break
 
-            for state_id, line_len_val, max_depth, max_score in results1:
-                total_states = 0
-                total_moves = 0
-                print(f"\nState {state_id} " +
-                      f"Max Line Value {line_len_val} " +
-                      f"\nMax Depth {max_depth} Max Score {max_score} ")
+                    sys.stdout.write('.')
+                    sys.stdout.flush()
+                    progress_counter += 1
+                    if progress_counter % 80 == 0:  # Start a new line every so often
+                        print()
 
-                query = """
-                SELECT StartState, GameState, Board, DepthLvl
-                FROM GameTree
-                WHERE GameOver = '0'
-                AND StartState = ? 
-                AND DepthLvl <= ?
-                AND LineLenVal >= ?
-                AND Gamestate NOT IN (SELECT Fromstate
-                                      FROM Moves)
-                """
-                results2 = execute_query(read_conn, query,
-                                         (state_id, max_depth, line_len_val * search_fraction))
+        print(f'\nStates: {total_states} Moves: {total_moves}')
+        next_iter += 1
+        read_conn.close()
 
-                if not results2:
-                    print(f"No more states to expand at iteration {next_iter}")
-                    break
+        if solution_found:
+            break
 
-                progress_counter = 0
-                if results2:
-                    print(f"Processing iteration: {next_iter}")
-                    for row in results2:
-                        start_state = row[0]
-                        state_id = row[1]
-                        current_board = row[2]
-                        current_depth = row[3]
-                        total_states += 1
-                        # Explore next state
-                        expanded, solution_found = expand_tree(write_conn, start_state, state_id, current_board, current_depth)
-                        total_moves += expanded
-
-                        if solution_found:
-                            print(f"\nSolution found! Perfect score of 48 achieved.")
-                            break
-
-                        sys.stdout.write('.')
-                        sys.stdout.flush()
-                        progress_counter += 1
-                        if progress_counter % 80 == 0:  # Start a new line every so often
-                            print()
-
-            print(f'\nStates: {total_states} Moves: {total_moves}')
-            next_iter += 1
-            read_conn.close()
-            if solution_found:
-                break
-
-        write_conn.close()
+    write_conn.close()
 
 
-def expand_tree(conn, start_state, state_id, board, depth):
+def expand_tree(conn: sqlite3.Connection, start_state: int, state_id: int, board: str, depth: int) -> Tuple[int, bool]:
+    """ Expand the game tree with all possible moves for the input state """
     try:
         cursor = conn.cursor()
         game = GameState.load_game(board)
