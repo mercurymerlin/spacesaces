@@ -15,6 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import sqlite3
+import os
 import sys
 
 from gamestate import GameState
@@ -118,6 +119,7 @@ def main():
         next_iter = 0
 
         results1 = []
+        solution_found = False
         while next_iter < num_iter:
 
             # Open read connection
@@ -188,8 +190,15 @@ def main():
                         state_id = row[1]
                         current_board = row[2]
                         current_depth = row[3]
-                        total_moves += expand_tree(write_conn, start_state, state_id, current_board, current_depth)
                         total_states += 1
+                        # Explore next state
+                        expanded, solution_found = expand_tree(write_conn, start_state, state_id, current_board, current_depth)
+                        total_moves += expanded
+
+                        if solution_found:
+                            print(f"\nSolution found! Perfect score of 48 achieved.")
+                            break
+
                         sys.stdout.write('.')
                         sys.stdout.flush()
                         progress_counter += 1
@@ -199,69 +208,77 @@ def main():
             print(f'\nStates: {total_states} Moves: {total_moves}')
             next_iter += 1
             read_conn.close()
+            if solution_found:
+                break
 
         write_conn.close()
 
 
 def expand_tree(conn, start_state, state_id, board, depth):
-    # try:
-    cursor = conn.cursor()
-    game = GameState.load_game(board)
-    expanded_count = 0
+    try:
+        cursor = conn.cursor()
+        game = GameState.load_game(board)
+        expanded_count = 0
 
-    for space_index in range(4):
-        if game.moves[space_index]:
-            for move_index in range(len(game.moves[space_index])):
-                new_game = GameState.load_game(board)
-                # Apply move
-                new_game.make_move(space_index, move_index)
-                from_rowcol = game.moves[space_index][move_index]
-                to_rowcol = game.spaces[space_index]
-                new_board = new_game.save_game()
-                new_score = new_game.calculate_score()
-                game_over = new_game.is_game_over()
-                new_game.calc_line_len()
-                active_spaces = sum(1 for lt in new_game.line_len if lt > 0)
-                tot_line_len = new_game.tot_line_len
-                line_len_val = 0.0
-                if new_score < 48:
-                    line_len_val = (tot_line_len + new_score) / (48.0 - new_score)
+        for space_index in range(4):
+            if game.moves[space_index]:
+                for move_index in range(len(game.moves[space_index])):
+                    new_game = GameState.load_game(board)
+                    # Apply move
+                    new_game.make_move(space_index, move_index)
+                    from_rowcol = game.moves[space_index][move_index]
+                    to_rowcol = game.spaces[space_index]
+                    new_board = new_game.save_game()
+                    new_score = new_game.calculate_score()
+                    game_over = new_game.is_game_over()
+                    new_game.calc_line_len()
+                    active_spaces = sum(1 for lt in new_game.line_len if lt > 0)
+                    tot_line_len = new_game.tot_line_len
+                    line_len_val = 0.0
 
-                # Insert new game state
-                cursor.execute("""
-                INSERT OR IGNORE INTO 
-                GameTree (StartState, Board, Score, ActiveSpaces, 
-                            TotLineLen, LineLenVal, GameOver, DepthLvl)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                """, (start_state, new_board, new_score, active_spaces,
-                      tot_line_len, line_len_val, game_over, depth + 1))
+                    # Check if this new state is a solution
+                    if new_score < 48:
+                        line_len_val = (tot_line_len + new_score) / (48.0 - new_score)
 
-                # Get the ID of the new state (or existing state if it was already in the table)
-                query = """
-                SELECT GameState 
-                FROM GameTree 
-                WHERE StartState = ? 
-                AND Board = ?
-                """
-                results = execute_query(conn, query, (start_state, new_board))
-                new_state_id = results[0][0]
+                    # Insert new game state
+                    cursor.execute("""
+                    INSERT OR IGNORE INTO 
+                    GameTree (StartState, Board, Score, ActiveSpaces, 
+                                TotLineLen, LineLenVal, GameOver, DepthLvl)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    """, (start_state, new_board, new_score, active_spaces,
+                          tot_line_len, line_len_val, game_over, depth + 1))
 
-                # Insert move
-                cursor.execute("""
-                INSERT OR IGNORE INTO 
-                Moves (StartState, FromState, ToState, MoveFromRow, MoveFromCol, MoveToRow, MoveToCol)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
-                """,
-                (start_state, state_id, new_state_id, from_rowcol[0], from_rowcol[1], to_rowcol[0], to_rowcol[1]))
-        expanded_count += 1
-    conn.commit()
+                    # Get the ID of the new state (or existing state if it was already in the table)
+                    query = """
+                    SELECT GameState 
+                    FROM GameTree 
+                    WHERE StartState = ? 
+                    AND Board = ?
+                    """
+                    results = execute_query(conn, query, (start_state, new_board))
+                    new_state_id = results[0][0]
 
-    # except sqlite3.Error as e:
-    #    conn.rollback()
-    #    print(f"Error expanding game tree: {e}")
+                    # Insert move
+                    cursor.execute("""
+                    INSERT OR IGNORE INTO 
+                    Moves (StartState, FromState, ToState, MoveFromRow, MoveFromCol, MoveToRow, MoveToCol)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                    """,
+                    (start_state, state_id, new_state_id, from_rowcol[0], from_rowcol[1], to_rowcol[0], to_rowcol[1]))
 
-    return expanded_count
+                    if new_score == 48:
+                        conn.commit()
+                        return expanded_count, True
 
+            expanded_count += 1
+            conn.commit()
+
+    except sqlite3.Error as e:
+        conn.rollback()
+        print(f"Error expanding game tree: {e}")
+
+    return expanded_count, False
 
 def insert_game_state(conn, game_state):
     """Insert a new game state into the database."""
