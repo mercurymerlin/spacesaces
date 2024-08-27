@@ -46,6 +46,7 @@ CREATE TABLE "Moves" (
     FOREIGN KEY("ToState") REFERENCES "GameTree"("GameState"),
     PRIMARY KEY("FromState", "ToState")
 );
+
 CREATE INDEX idx_movestate ON Moves(StartState, FromState);
 CREATE INDEX idx_fromstate ON Moves(FromState, ToState);
 CREATE INDEX idx_tostate ON Moves(ToState, FromState);

@@ -113,7 +113,7 @@ def print_state_details(db_path, csvfile, from_state, to_state):
 
 
 def main():
-    db_path = 'C:/Users/John/Database/GameTree3.db'  # Replace with your actual database path
+    db_path = os.path.expanduser('~/Database/GameTree.db')  # Replace with your actual database path
 
     while True:
         state_id = input("\nEnter a state ID to trace (or 'q' to quit): ")
