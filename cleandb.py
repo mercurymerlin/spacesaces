@@ -25,6 +25,7 @@ def clear_screen():
 def clean_state_history(db_path, start_state_id):
     conn = None
     highest_score_state = None
+    print(f"\nBeginning clean for start state {start_state_id}")
 
     try:
         conn = sqlite3.connect(db_path)
@@ -62,7 +63,7 @@ def clean_state_history(db_path, start_state_id):
         end_time = time.time()
         operation_time = end_time - start_time
 
-        print(f"Cleaned state history for start state {start_state_id}")
+        print(f"\nCleaned state history for start state {start_state_id}")
         print(f"Kept start state {start_state_id} and highest score state {highest_score_state}")
         print(f"Highest score: {highest_score}, Depth: {depth}")
         print(f"Deleted moves: {deleted_moves}")
@@ -70,7 +71,7 @@ def clean_state_history(db_path, start_state_id):
         print(f"Operation took {operation_time:.2f} seconds")
 
         # Prompt for VACUUM operation
-        vacuum_choice = input("Do you want to perform a VACUUM operation to compact the database? (Y/N): ").lower()
+        vacuum_choice = input("\nDo you want to perform a VACUUM operation to compact the database? (Y/N): ").lower()
         if vacuum_choice == 'y':
             vacuum_start_time = time.time()
             conn.execute("VACUUM")
@@ -91,8 +92,11 @@ def clean_state_history(db_path, start_state_id):
 def main():
     db_path = os.path.expanduser('~/Database/GameTree.db')  # Replace with your actual database path
 
+    clear_screen()
+    print(f"Database path: {db_path}")
+
     while True:
-        print("Backing up your database before cleaning is recommended")
+        print("\nBacking up your database before cleaning is recommended")
         state_id = input("\nEnter a state ID to clean (or 'q' to quit): ")
         if state_id.lower() == 'q':
             break
@@ -103,8 +107,11 @@ def main():
 
             highest_score_state = clean_state_history(db_path, state_id)
 
-            print(f"Cleaned state history for start state {state_id}")
+            print(f"\nCleaned state history for start state {state_id}")
             print(f"Kept start state {state_id} and highest score state {highest_score_state}")
 
         except ValueError:
             print("Please enter a valid integer state ID.")
+
+if __name__ == "__main__":
+    main()
