@@ -16,5 +16,5 @@ while true; do
     ps aux --sort=-%cpu | grep python | grep -v grep
     # ps aux --sort=-%cpu | head -n 11 | awk 'NR==1 || /python/'
 
-    sleep 30
+    sleep 60
 done
