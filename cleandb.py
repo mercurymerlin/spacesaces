@@ -1,4 +1,5 @@
-# SpacesAces - Clean db to remove Moves and all game states except a given start state
+# SpacesAces - Clean db to remove Moves and game states
+#              except a given start state and the best result state
 # Copyright (C) 2024 John Barron <jbarronuk@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -16,57 +17,76 @@
 
 import os
 import sqlite3
+import time
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def clean_state_history(db_path, start_state_id):
+    conn = None
+    highest_score_state = None
+
+    try:
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
 
-        try:
-            # Start a transaction
-            cursor.execute("BEGIN TRANSACTION")
+        # Acquire an exclusive lock on the database
+        cursor.execute("BEGIN EXCLUSIVE TRANSACTION")
 
-            # Find the state with the highest score for the given start state
-            cursor.execute("""
+        start_time = time.time()
+
+        # Find the state with the highest score for the given start state
+        cursor.execute("""
                 SELECT GameState, Score, DepthLvl
                 FROM GameTree
                 WHERE StartState = ?
                 ORDER BY Score DESC, DepthLvl 
             """, (start_state_id,))
-            highest_score_state = cursor.fetchone()[0]
+        highest_score_state, highest_score, depth = cursor.fetchone()
 
-            # Delete all moves related to this start state
-            cursor.execute("""
-                DELETE FROM Moves
-                WHERE StartState = ?
-            """, (start_state_id,))
+        # Delete all moves related to this start state
+        cursor.execute("DELETE FROM Moves WHERE StartState = ?", (start_state_id,))
+        deleted_moves = cursor.rowcount
 
-            # Delete all game states except the start state and highest score state
-            cursor.execute("""
+        # Delete all game states except the start state and highest score state
+        cursor.execute("""
                 DELETE FROM GameTree
                 WHERE StartState = ?
-                AND GameState <> ?
-                AND GameState <> ?
+                AND GameState NOT IN (?, ?)
             """, (start_state_id, start_state_id, highest_score_state))
+        deleted_states = cursor.rowcount
 
-            # Commit the transaction
-            conn.commit()
+        # Commit the transaction
+        conn.commit()
 
-            print(f"Cleaned state history for start state {start_state_id}")
-            print(f"Kept start state {start_state_id} and highest score state {highest_score_state}")
+        end_time = time.time()
+        operation_time = end_time - start_time
 
-        except sqlite3.Error as e:
-            # If an error occurs, roll back the transaction
+        print(f"Cleaned state history for start state {start_state_id}")
+        print(f"Kept start state {start_state_id} and highest score state {highest_score_state}")
+        print(f"Highest score: {highest_score}, Depth: {depth}")
+        print(f"Deleted moves: {deleted_moves}")
+        print(f"Deleted states: {deleted_states}")
+        print(f"Operation took {operation_time:.2f} seconds")
+
+        # Prompt for VACUUM operation
+        vacuum_choice = input("Do you want to perform a VACUUM operation to compact the database? (Y/N): ").lower()
+        if vacuum_choice == 'y':
+            vacuum_start_time = time.time()
+            conn.execute("VACUUM")
+            vacuum_end_time = time.time()
+            vacuum_time = vacuum_end_time - vacuum_start_time
+            print(f"VACUUM operation completed in {vacuum_time:.2f} seconds")
+
+    except sqlite3.Error as e:
+        if conn:
             conn.rollback()
-            print(f"An error occurred: {e}")
-
-        finally:
-            # Close the connection
+        print(f"An error occurred: {e}")
+    finally:
+        if conn:
             conn.close()
 
-        return highest_score_state
+    return highest_score_state
 
 def main():
     db_path = os.path.expanduser('~/Database/GameTree.db')  # Replace with your actual database path
