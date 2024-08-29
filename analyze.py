@@ -78,9 +78,9 @@ def main():
         return
 
     # Initialize start
-    user_input = input("Clear database Y or N?: ").strip().lower()
-    if user_input == 'y':
-        clear_tables(write_conn)
+    # user_input = input("Clear database Y or N?: ").strip().lower()
+    # if user_input == 'y':
+    #    clear_tables(write_conn)
 
     current_game = None
     user_input = input("Add a random start state Y or N?: ").strip().lower()
