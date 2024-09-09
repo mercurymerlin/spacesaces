@@ -155,7 +155,7 @@ def main():
             """
             results1 = execute_query(read_conn, query, (start_id, ))
 
-        print(results1)
+        # print(results1)
         if len(results1) == 0:
             print("Search ended")
             break
@@ -164,7 +164,7 @@ def main():
             total_states = 0
             total_moves = 0
             print(f"\nState {state_id} " +
-                  f"Max Line Value {line_len_val} " +
+                  f"Max Line Value {line_len_val:.2f} " +
                   f"\nMax Depth {max_depth} Max Score {max_score} ")
 
             query = """
