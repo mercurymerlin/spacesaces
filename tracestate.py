@@ -17,6 +17,7 @@
 import sqlite3
 import csv
 import os
+import sys
 
 from gamestate import GameState
 
@@ -134,26 +135,40 @@ def main():
                 print(f"Error opening CSV file: {e}")
                 continue
 
-        clear_screen()
+        print_log = input("Enter filename to log print output (or press Enter to print to terminal): ")
+        print_file = None
+        if print_log:
+            try:
+                print_file = open(print_log, 'w')
+                sys.stdout = print_file  # Redirect stdout to the file
+            except IOError as e:
+                print(f"Error opening print log file: {e}")
+                continue
+
         try:
-            state_id = int(state_id)
-            state_sequence = trace_state_history(db_path, state_id)
+            clear_screen()
+            try:
+                state_id = int(state_id)
+                state_sequence = trace_state_history(db_path, state_id)
 
-            print(f"Path to reach state {state_id}:")
-            for from_state, to_state in state_sequence:
-                print(f"\nMove from state {from_state} to state {to_state}:")
-                print_state_details(db_path, csvfile, from_state, to_state)
+                print(f"Path to reach state {state_id}:")
+                for from_state, to_state in state_sequence:
+                    print(f"\nMove from state {from_state} to state {to_state}:")
+                    print_state_details(db_path, csvfile, from_state, to_state)
 
-        except ValueError:
-            print("Please enter a valid integer state ID.")
-        # except Exception as e:
-        #    print(f"An error occurred: {e}")
+            except ValueError:
+                print("Please enter a valid integer state ID.")
+            # except Exception as e:
+            #    print(f"An error occurred: {e}")
 
         finally:
             if csvfile:
                 csvfile.close()
                 print(f"CSV file has been created: {csv_log}")
-
+            if print_file:
+                sys.stdout = sys.__stdout__  # Reset stdout to its original value
+                print_file.close()
+                print(f"Print output has been logged to: {print_log}")
 
 if __name__ == "__main__":
     main()
