@@ -55,7 +55,8 @@ def main():
            + "Your score: " + str(game.calculate_score()) + " cards")
     clear_screen()
     print("\n")
-    print(game)
+    # print(game)
+    print(game.__str__(ColorMode.DARK))
     print(msg)
 
 def clear_screen():

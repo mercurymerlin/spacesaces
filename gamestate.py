@@ -17,6 +17,12 @@
 import random
 import copy
 from typing import Tuple, List, Dict, Optional
+from enum import Enum
+
+class ColorMode(Enum):
+    DARK = "dark"
+    LIGHT = "light"
+    NONE = "none"
 
 class GameState:
     """
@@ -255,48 +261,68 @@ class GameState:
 
         return game
 
-    def __str__(self):
+    def __str__(self, color_mode=ColorMode.LIGHT):
         self.calc_line_len()
         score = self.calculate_score()
         line_len_val = 0
         if score < 48:
             line_len_val = (self.tot_line_len + score) / (48 - score)
 
+        # ANSI color codes
+        if color_mode == ColorMode.DARK:
+            RESET = "\033[0m"
+            BOLD = "\033[1m"
+            RED = "\033[91m"  # Bright Red
+            GREEN = "\033[92m"  # Bright Green
+            BLUE = "\033[94m"  # Bright Blue
+            YELLOW = "\033[93m"  # Bright Yellow
+        elif color_mode == ColorMode.LIGHT:
+            RESET = "\033[0m"
+            BOLD = "\033[1m"
+            RED = "\033[31m"  # Regular Red
+            GREEN = "\033[32m"  # Regular Green
+            BLUE = "\033[34m"  # Regular Blue
+            YELLOW = "\033[33m"  # Regular Yellow
+        else:  # ColorMode.NONE
+            RESET = BOLD = RED = GREEN = BLUE = YELLOW = ""
+
+        # Function to get color for a card
+        def get_card_color(card):
+            if card is None:
+                return RESET
+            suit = card[1]
+            return RED if suit in ['H', 'D'] else BLUE
+
         output = ""
         for row in self.board:
             for card in row:
                 if card is None:
-                    output += "__ "
+                    ## output += "__ "
+                    output += f"{RESET}__ {RESET}"
                 else:
                     rank, suit = card
-                    output += f"{rank}{suit} "
+                    color = get_card_color(card)
+                    # output += f"{rank}{suit} "
+                    output += f"{color}{rank}{suit}{RESET} "
             output += "\n"
         if len(self.aces) > 0:
-            output += "\nAces " + str(self.aces)
-        output += "\nSpaces " + str(self.spaces)
-        output += "\nMoves " + str(self.moves)
-        output += "\n\nLine length " + str(self.line_len)
-        output += "\nTotal length " + str(self.tot_line_len)
-        output += "\nLine len value " + str(line_len_val)
-        output += "\n\nScore " + str(score)
+            # output += "\nAces " + str(self.aces)
+            output += f"\n{RESET}Aces:{RESET} {self.aces}\n"
+        # output += "\nSpaces " + str(self.spaces)
+        # output += "\nMoves " + str(self.moves)
+        # output += "\n\nLine length " + str(self.line_len)
+        # output += "\nTotal length " + str(self.tot_line_len)
+        # output += "\nLine len value " + str(line_len_val)
+        # output += "\n\nScore " + str(score)
+
+        output += f"{RESET}Spaces:{RESET} {self.spaces}\n"
+        output += f"{RESET}Moves:{RESET} {self.moves}\n"
+        output += f"\n{RESET}{BOLD}Line length:{RESET} {self.line_len}\n"
+        output += f"{RESET}{BOLD}Total length:{RESET} {self.tot_line_len}\n"
+        output += f"{RESET}{BOLD}Line len value:{RESET} {line_len_val:.2f}\n"
+        output += f"\n{BOLD}{GREEN}Score:{RESET} {score}\n"
+
         return output
-
-    #def find_empty_spaces(self):
-    #    empty_spaces = []
-    #    for row in range(4):
-    #        for col in range(14):
-    #            if self.board[row][col] is None:
-    #                empty_spaces.append((row, col))
-    #    return empty_spaces
-
-    #def find_aces(self):
-    #    aces = []
-    #    for row in range(4):
-    #        for col in range(14):
-    #            card = self.board[row][col]
-    #            if card and card[0] == 'A':
-    #                aces.append((row, col))
-    #    return aces
 
     def find_card(self, next_card):
         card_locn = []
