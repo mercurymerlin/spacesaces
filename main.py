@@ -16,7 +16,7 @@
 
 import os
 
-from gamestate import GameState
+from gamestate import GameState, ColorMode
 
 def main():
     msg = ""
