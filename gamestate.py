@@ -38,6 +38,12 @@ class GameState:
     suits = ['H', 'D', 'C', 'S']
     ranks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'J', 'Q', 'K']
 
+    def set_color_mode(self, mode):
+        if isinstance(mode, ColorMode):
+            self.color_mode = mode
+        else:
+            raise ValueError("mode must be a ColorMode enum")
+
     def calc_line_len(self) -> None:
         """ Calculate maximum moves down the line of each space to block """
         self.num_moves = sum(1 for moves in self.moves if moves)
@@ -174,6 +180,8 @@ class GameState:
         return total_cards
 
     def __init__(self):
+        self.color_mode = ColorMode.LIGHT  # Default to light mode
+
         # Create a standard deck of cards
         self.deck = [(rank, suit) for suit in self.suits for rank in self.ranks]
         random.shuffle(self.deck)
@@ -261,7 +269,7 @@ class GameState:
 
         return game
 
-    def __str__(self, color_mode=ColorMode.LIGHT):
+    def __str__(self):
         self.calc_line_len()
         score = self.calculate_score()
         line_len_val = 0
@@ -269,14 +277,14 @@ class GameState:
             line_len_val = (self.tot_line_len + score) / (48 - score)
 
         # ANSI color codes
-        if color_mode == ColorMode.DARK:
+        if self.color_mode == ColorMode.DARK:
             RESET = "\033[0m"
             BOLD = "\033[1m"
             RED = "\033[91m"  # Bright Red
             GREEN = "\033[92m"  # Bright Green
             BLUE = "\033[94m"  # Bright Blue
             YELLOW = "\033[93m"  # Bright Yellow
-        elif color_mode == ColorMode.LIGHT:
+        elif self.color_mode == ColorMode.LIGHT:
             RESET = "\033[0m"
             BOLD = "\033[1m"
             RED = "\033[31m"  # Regular Red
@@ -303,11 +311,11 @@ class GameState:
                     rank, suit = card
                     color = get_card_color(card)
                     # output += f"{rank}{suit} "
-                    output += f"{color}{rank}{suit}{RESET} "
+                    output += f"{BOLD}{color}{rank}{suit}{RESET} "
             output += "\n"
         if len(self.aces) > 0:
             # output += "\nAces " + str(self.aces)
-            output += f"\n{RESET}Aces:{RESET} {self.aces}\n"
+            output += f"\n{RESET}Aces:{RESET} {self.aces}"
         # output += "\nSpaces " + str(self.spaces)
         # output += "\nMoves " + str(self.moves)
         # output += "\n\nLine length " + str(self.line_len)
@@ -315,7 +323,7 @@ class GameState:
         # output += "\nLine len value " + str(line_len_val)
         # output += "\n\nScore " + str(score)
 
-        output += f"{RESET}Spaces:{RESET} {self.spaces}\n"
+        output += f"\n{RESET}Spaces:{RESET} {self.spaces}\n"
         output += f"{RESET}Moves:{RESET} {self.moves}\n"
         output += f"\n{RESET}{BOLD}Line length:{RESET} {self.line_len}\n"
         output += f"{RESET}{BOLD}Total length:{RESET} {self.tot_line_len}\n"

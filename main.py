@@ -21,6 +21,7 @@ from gamestate import GameState, ColorMode
 def main():
     msg = ""
     game = GameState()
+    game.set_color_mode(ColorMode.DARK)
     move_depth = 0
 
     while not game.is_game_over():
@@ -56,7 +57,7 @@ def main():
     clear_screen()
     print("\n")
     # print(game)
-    print(game.__str__(ColorMode.DARK))
+    print(game)
     print(msg)
 
 def clear_screen():
