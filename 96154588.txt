@@ -1,0 +1,2386 @@
+Sequence traced: 95981063
+Steps: 118
+Path to reach state 96154588:
+
+Move from state None to state 95981063:
+State ID: 95981063
+Depth: 0
+[0m__ [0m[1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34mAC[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m4S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[0m__ [0m[1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[0m__ [0m[1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [1m[31mAH[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[0m__ [0m[1m[34m5S[0m [1m[34m7S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[31mAD[0m [1m[34mAS[0m [1m[31m0H[0m 
+
+[0mAces:[0m [(0, 4), (2, 7), (3, 11), (3, 12)]
+[0mSpaces:[0m [(0, 0), (1, 0), (2, 0), (3, 0)]
+[0mMoves:[0m [[(0, 4), (2, 7), (3, 11), (3, 12)], [(0, 4), (2, 7), (3, 11), (3, 12)], [(0, 4), (2, 7), (3, 11), (3, 12)], [(0, 4), (2, 7), (3, 11), (3, 12)]]
+
+[0m[1mLine length:[0m [0, 0, 0, 0]
+[0m[1mTotal length:[0m 0
+[0m[1mLine len value:[0m 0.00
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981063 to state 95981078:
+State ID: 95981078
+Depth: 1
+Move from: 0, 4
+Move to: 3, 0
+[0m__ [0m[1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [0m__ [0m[1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m4S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[0m__ [0m[1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[0m__ [0m[1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [1m[31mAH[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m7S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[31mAD[0m [1m[34mAS[0m [1m[31m0H[0m 
+
+[0mAces:[0m [(2, 7), (3, 11), (3, 12)]
+[0mSpaces:[0m [(0, 0), (0, 4), (1, 0), (2, 0)]
+[0mMoves:[0m [[(2, 7), (3, 11), (3, 12)], [(0, 9)], [(2, 7), (3, 11), (3, 12)], [(2, 7), (3, 11), (3, 12)]]
+
+[0m[1mLine length:[0m [0, 10, 0, 0]
+[0m[1mTotal length:[0m 10
+[0m[1mLine len value:[0m 0.21
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981078 to state 95981088:
+State ID: 95981088
+Depth: 2
+Move from: 3, 12
+Move to: 1, 0
+[0m__ [0m[1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [0m__ [0m[1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m4S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[0m__ [0m[1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [1m[31mAH[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m7S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[31mAD[0m [0m__ [0m[1m[31m0H[0m 
+
+[0mAces:[0m [(2, 7), (3, 11)]
+[0mSpaces:[0m [(0, 0), (0, 4), (2, 0), (3, 12)]
+[0mMoves:[0m [[(2, 7), (3, 11)], [(0, 9)], [(2, 7), (3, 11)], [(0, 12)]]
+
+[0m[1mLine length:[0m [0, 24, 0, 3]
+[0m[1mTotal length:[0m 27
+[0m[1mLine len value:[0m 0.56
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981088 to state 95981099:
+State ID: 95981099
+Depth: 3
+Move from: 3, 11
+Move to: 0, 0
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [0m__ [0m[1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m4S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[0m__ [0m[1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [1m[31mAH[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m7S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [0m__ [0m[0m__ [0m[1m[31m0H[0m 
+
+[0mAces:[0m [(2, 7)]
+[0mSpaces:[0m [(0, 4), (2, 0), (3, 11), (3, 12)]
+[0mMoves:[0m [[(0, 9)], [(2, 7)], [(2, 3)], None]
+
+[0m[1mLine length:[0m [37, 0, 3, 24]
+[0m[1mTotal length:[0m 64
+[0m[1mLine len value:[0m 1.33
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981099 to state 95981104:
+State ID: 95981104
+Depth: 4
+Move from: 0, 9
+Move to: 0, 4
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [0m__ [0m[1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[0m__ [0m[1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [1m[31mAH[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m7S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [0m__ [0m[0m__ [0m[1m[31m0H[0m 
+
+[0mAces:[0m [(2, 7)]
+[0mSpaces:[0m [(0, 9), (2, 0), (3, 11), (3, 12)]
+[0mMoves:[0m [[(3, 2)], [(2, 7)], [(2, 3)], None]
+
+[0m[1mLine length:[0m [36, 0, 3, 24]
+[0m[1mTotal length:[0m 63
+[0m[1mLine len value:[0m 1.31
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981104 to state 95981128:
+State ID: 95981128
+Depth: 5
+Move from: 2, 7
+Move to: 2, 0
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [0m__ [0m[1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [0m__ [0m[1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m7S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [0m__ [0m[0m__ [0m[1m[31m0H[0m 
+
+[0mSpaces:[0m [(0, 9), (2, 7), (3, 11), (3, 12)]
+[0mMoves:[0m [[(3, 2)], [(3, 6)], [(2, 3)], None]
+
+[0m[1mLine length:[0m [36, 2, 10, 30]
+[0m[1mTotal length:[0m 78
+[0m[1mLine len value:[0m 1.62
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981128 to state 95981143:
+State ID: 95981143
+Depth: 6
+Move from: 3, 2
+Move to: 0, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [1m[34m0S[0m [1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [0m__ [0m[1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [0m__ [0m[0m__ [0m[1m[31m0H[0m 
+
+[0mSpaces:[0m [(2, 7), (3, 2), (3, 11), (3, 12)]
+[0mMoves:[0m [[(3, 6)], [(0, 8)], [(2, 3)], None]
+
+[0m[1mLine length:[0m [2, 35, 10, 30]
+[0m[1mTotal length:[0m 77
+[0m[1mLine len value:[0m 1.60
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981143 to state 95981176:
+State ID: 95981176
+Depth: 7
+Move from: 2, 3
+Move to: 3, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [0m__ [0m[1m[34m3C[0m [1m[34mQC[0m [1m[34mJS[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [0m__ [0m[1m[31m0H[0m 
+
+[0mSpaces:[0m [(2, 3), (2, 7), (3, 2), (3, 12)]
+[0mMoves:[0m [[(3, 7)], [(3, 6)], [(0, 8)], [(2, 10)]]
+
+[0m[1mLine length:[0m [9, 2, 35, 30]
+[0m[1mTotal length:[0m 76
+[0m[1mLine len value:[0m 1.58
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981176 to state 95981214:
+State ID: 95981214
+Depth: 8
+Move from: 2, 10
+Move to: 3, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[1m[31m9H[0m [1m[34mKC[0m [1m[31m4H[0m [0m__ [0m[1m[34m3C[0m [1m[34mQC[0m [0m__ [0m[1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31m0H[0m 
+
+[0mSpaces:[0m [(2, 3), (2, 7), (2, 10), (3, 2)]
+[0mMoves:[0m [[(3, 7)], [(3, 6)], [(2, 5)], [(0, 8)]]
+
+[0m[1mLine length:[0m [9, 2, 29, 4]
+[0m[1mTotal length:[0m 44
+[0m[1mLine len value:[0m 0.92
+
+[1m[32mScore:[0m 0
+
+
+Move from state 95981214 to state 96010272:
+State ID: 96010272
+Depth: 9
+Move from: 2, 5
+Move to: 2, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[1m[31m9H[0m [0m__ [0m[1m[31m4H[0m [0m__ [0m[1m[34m3C[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31m0H[0m 
+
+[0mSpaces:[0m [(2, 3), (2, 5), (2, 7), (3, 2)]
+[0mMoves:[0m [[(3, 7)], [(3, 13)], [(3, 6)], [(0, 8)]]
+
+[0m[1mLine length:[0m [9, 28, 29, 4]
+[0m[1mTotal length:[0m 70
+[0m[1mLine len value:[0m 1.46
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96010272 to state 96010695:
+State ID: 96010695
+Depth: 10
+Move from: 3, 13
+Move to: 2, 5
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31m4H[0m [0m__ [0m[1m[34m3C[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m5H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 3), (2, 7), (3, 2), (3, 13)]
+[0mMoves:[0m [[(3, 7)], [(3, 6)], [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [9, 29, 4, 27]
+[0m[1mTotal length:[0m 69
+[0m[1mLine len value:[0m 1.44
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96010695 to state 96011196:
+State ID: 96011196
+Depth: 11
+Move from: 3, 6
+Move to: 2, 7
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [0m__ [0m[1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 3), (3, 2), (3, 6), (3, 13)]
+[0mMoves:[0m [[(3, 7)], [(0, 8)], [(2, 6)], [(3, 8)]]
+
+[0m[1mLine length:[0m [6, 4, 28, 27]
+[0m[1mTotal length:[0m 65
+[0m[1mLine len value:[0m 1.35
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96011196 to state 96011542:
+State ID: 96011542
+Depth: 12
+Move from: 2, 6
+Move to: 3, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [0m__ [0m[1m[31m5H[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 3), (2, 6), (3, 2), (3, 13)]
+[0mMoves:[0m [[(3, 7)], [(2, 2)], [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [6, 27, 4, 27]
+[0m[1mTotal length:[0m 64
+[0m[1mLine len value:[0m 1.33
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96011542 to state 96011785:
+State ID: 96011785
+Depth: 13
+Move from: 2, 2
+Move to: 2, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [0m__ [0m[0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[31m7H[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 2), (2, 3), (3, 2), (3, 13)]
+[0mMoves:[0m [[(2, 12)], None, [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [26, 3, 4, 27]
+[0m[1mTotal length:[0m 60
+[0m[1mLine len value:[0m 1.25
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96011785 to state 96013934:
+State ID: 96013934
+Depth: 14
+Move from: 2, 12
+Move to: 2, 2
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[34m3C[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [0m__ [0m[1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 3), (2, 12), (3, 2), (3, 13)]
+[0mMoves:[0m [[(1, 11)], [(2, 8)], [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [3, 25, 4, 15]
+[0m[1mTotal length:[0m 47
+[0m[1mLine len value:[0m 0.98
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96013934 to state 96021130:
+State ID: 96021130
+Depth: 15
+Move from: 2, 8
+Move to: 2, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m6H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [0m__ [0m[1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 3), (2, 8), (3, 2), (3, 13)]
+[0mMoves:[0m [[(1, 11)], [(2, 1)], [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [3, 24, 4, 15]
+[0m[1mTotal length:[0m 46
+[0m[1mLine len value:[0m 0.96
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96021130 to state 96049050:
+State ID: 96049050
+Depth: 16
+Move from: 2, 1
+Move to: 2, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[31m2H[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [0m__ [0m[1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 1), (2, 3), (3, 2), (3, 13)]
+[0mMoves:[0m [[(1, 9)], [(1, 11)], [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [23, 3, 4, 15]
+[0m[1mTotal length:[0m 45
+[0m[1mLine len value:[0m 0.94
+
+[1m[32mScore:[0m 0
+
+
+Move from state 96049050 to state 96057057:
+State ID: 96057057
+Depth: 17
+Move from: 1, 9
+Move to: 2, 1
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [0m__ [0m[1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(1, 9), (2, 3), (3, 2), (3, 13)]
+[0mMoves:[0m [[(3, 10)], [(1, 11)], [(0, 8)], [(3, 8)]]
+
+[0m[1mLine length:[0m [22, 3, 4, 22]
+[0m[1mTotal length:[0m 51
+[0m[1mLine len value:[0m 1.11
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96057057 to state 96059133:
+State ID: 96059133
+Depth: 18
+Move from: 3, 10
+Move to: 1, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [0m__ [0m[1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [0m__ [0m[1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 3), (3, 2), (3, 10), (3, 13)]
+[0mMoves:[0m [[(1, 11)], [(0, 8)], [(1, 7)], [(3, 8)]]
+
+[0m[1mLine length:[0m [3, 4, 21, 22]
+[0m[1mTotal length:[0m 50
+[0m[1mLine len value:[0m 1.09
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96059133 to state 96059744:
+State ID: 96059744
+Depth: 19
+Move from: 0, 8
+Move to: 3, 2
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m8D[0m [1m[34m0C[0m [1m[31m7D[0m [0m__ [0m[1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [0m__ [0m[1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 8), (2, 3), (3, 10), (3, 13)]
+[0mMoves:[0m [[(0, 5)], [(1, 11)], [(1, 7)], [(3, 8)]]
+
+[0m[1mLine length:[0m [3, 3, 21, 22]
+[0m[1mTotal length:[0m 49
+[0m[1mLine len value:[0m 1.06
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96059744 to state 96060545:
+State ID: 96060545
+Depth: 20
+Move from: 0, 5
+Move to: 0, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[34m6C[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [0m__ [0m[1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (2, 3), (3, 10), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(1, 11)], [(1, 7)], [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 3, 22, 22]
+[0m[1mTotal length:[0m 49
+[0m[1mLine len value:[0m 1.06
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96060545 to state 96061914:
+State ID: 96061914
+Depth: 21
+Move from: 1, 7
+Move to: 3, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[31mJD[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [0m__ [0m[1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (1, 7), (2, 3), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(0, 2)], [(1, 11)], [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 21, 3, 22]
+[0m[1mTotal length:[0m 48
+[0m[1mLine len value:[0m 1.04
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96061914 to state 96063906:
+State ID: 96063906
+Depth: 22
+Move from: 0, 2
+Move to: 1, 7
+[1m[31mAD[0m [1m[34mJC[0m [0m__ [0m[1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 2), (0, 5), (2, 3), (3, 13)]
+[0mMoves:[0m [[(2, 9)], [(3, 1)], [(1, 11)], [(3, 8)]]
+
+[0m[1mLine length:[0m [20, 2, 3, 24]
+[0m[1mTotal length:[0m 49
+[0m[1mLine len value:[0m 1.06
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96063906 to state 96066719:
+State ID: 96066719
+Depth: 23
+Move from: 2, 9
+Move to: 0, 2
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m7H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [0m__ [0m[1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (2, 3), (2, 9), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(1, 11)], [(2, 2)], [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 3, 19, 24]
+[0m[1mTotal length:[0m 48
+[0m[1mLine len value:[0m 1.04
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96066719 to state 96067899:
+State ID: 96067899
+Depth: 24
+Move from: 2, 2
+Move to: 2, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [0m__ [0m[0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (2, 2), (2, 3), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(3, 5)], None, [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 18, 5, 24]
+[0m[1mTotal length:[0m 49
+[0m[1mLine len value:[0m 1.06
+
+[1m[32mScore:[0m 1
+
+
+Move from state 96067899 to state 96068806:
+State ID: 96068806
+Depth: 25
+Move from: 3, 5
+Move to: 2, 2
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [0m__ [0m[1m[31m4H[0m [1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (2, 3), (3, 5), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(3, 6)], [(0, 11)], [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 5, 17, 24]
+[0m[1mTotal length:[0m 48
+[0m[1mLine len value:[0m 1.09
+
+[1m[32mScore:[0m 2
+
+
+Move from state 96068806 to state 96069397:
+State ID: 96069397
+Depth: 26
+Move from: 3, 6
+Move to: 2, 3
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [1m[31m6D[0m [1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [0m__ [0m[0m__ [0m[1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (3, 5), (3, 6), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(0, 11)], None, [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 17, 4, 24]
+[0m[1mTotal length:[0m 47
+[0m[1mLine len value:[0m 1.11
+
+[1m[32mScore:[0m 3
+
+
+Move from state 96069397 to state 96069714:
+State ID: 96069714
+Depth: 27
+Move from: 0, 11
+Move to: 3, 5
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[34mQS[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (0, 11), (3, 6), (3, 13)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(0, 7)], [(3, 8)]]
+
+[0m[1mLine length:[0m [2, 16, 4, 34]
+[0m[1mTotal length:[0m 56
+[0m[1mLine len value:[0m 1.31
+
+[1m[32mScore:[0m 3
+
+
+Move from state 96069714 to state 96069917:
+State ID: 96069917
+Depth: 28
+Move from: 3, 8
+Move to: 3, 13
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31mKH[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [0m__ [0m[1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (3, 6), (3, 8)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(0, 7)], [(3, 3)]]
+
+[0m[1mLine length:[0m [2, 2, 4, 33]
+[0m[1mTotal length:[0m 41
+[0m[1mLine len value:[0m 0.98
+
+[1m[32mScore:[0m 3
+
+
+Move from state 96069917 to state 96087948:
+State ID: 96087948
+Depth: 29
+Move from: 3, 3
+Move to: 3, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m7S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [0m__ [0m[1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (3, 3), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(0, 9)], [(0, 7)]]
+
+[0m[1mLine length:[0m [2, 2, 32, 15]
+[0m[1mTotal length:[0m 51
+[0m[1mLine len value:[0m 1.20
+
+[1m[32mScore:[0m 3
+
+
+Move from state 96087948 to state 96088286:
+State ID: 96088286
+Depth: 30
+Move from: 0, 9
+Move to: 3, 3
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [0m__ [0m[1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[31m9D[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 9), (0, 11), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 1)], [(1, 3)], [(0, 7)]]
+
+[0m[1mLine length:[0m [2, 31, 2, 15]
+[0m[1mTotal length:[0m 50
+[0m[1mLine len value:[0m 1.18
+
+[1m[32mScore:[0m 3
+
+
+Move from state 96088286 to state 96088541:
+State ID: 96088541
+Depth: 31
+Move from: 1, 1
+Move to: 0, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [0m__ [0m[1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m2S[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 1), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(2, 13)], [(0, 7)]]
+
+[0m[1mLine length:[0m [2, 2, 30, 16]
+[0m[1mTotal length:[0m 50
+[0m[1mLine len value:[0m 1.18
+
+[1m[32mScore:[0m 3
+
+
+Move from state 96088541 to state 96088739:
+State ID: 96088739
+Depth: 32
+Move from: 2, 13
+Move to: 1, 1
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m4C[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (2, 13), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(1, 2)], [(0, 7)]]
+
+[0m[1mLine length:[0m [2, 2, 29, 16]
+[0m[1mTotal length:[0m 49
+[0m[1mLine len value:[0m 1.20
+
+[1m[32mScore:[0m 4
+
+
+Move from state 96088739 to state 96088998:
+State ID: 96088998
+Depth: 33
+Move from: 1, 2
+Move to: 2, 13
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [0m__ [0m[1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 2), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(0, 3)], [(0, 7)]]
+
+[0m[1mLine length:[0m [2, 2, 28, 16]
+[0m[1mTotal length:[0m 48
+[0m[1mLine len value:[0m 1.18
+
+[1m[32mScore:[0m 4
+
+
+Move from state 96088998 to state 96089607:
+State ID: 96089607
+Depth: 34
+Move from: 0, 3
+Move to: 1, 2
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [0m__ [0m[1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[34mKC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 3), (0, 5), (0, 11), (3, 6)]
+[0mMoves:[0m [[(2, 10)], [(3, 1)], [(1, 3)], [(0, 7)]]
+
+[0m[1mLine length:[0m [27, 2, 2, 16]
+[0m[1mTotal length:[0m 47
+[0m[1mLine len value:[0m 1.21
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96089607 to state 96090198:
+State ID: 96090198
+Depth: 35
+Move from: 2, 10
+Move to: 0, 3
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[31m8H[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [0m__ [0m[1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (2, 10), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(1, 11)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 26, 16]
+[0m[1mTotal length:[0m 53
+[0m[1mLine len value:[0m 1.35
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96090198 to state 96090974:
+State ID: 96090974
+Depth: 36
+Move from: 1, 11
+Move to: 2, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[34m9C[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [0m__ [0m[1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 11), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(1, 4)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 25, 20]
+[0m[1mTotal length:[0m 56
+[0m[1mLine len value:[0m 1.42
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96090974 to state 96091463:
+State ID: 96091463
+Depth: 37
+Move from: 1, 4
+Move to: 1, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [0m__ [0m[1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 4), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(3, 4)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 24, 18]
+[0m[1mTotal length:[0m 53
+[0m[1mLine len value:[0m 1.35
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96091463 to state 96091952:
+State ID: 96091952
+Depth: 38
+Move from: 3, 4
+Move to: 1, 4
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [0m__ [0m[1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (3, 4), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(1, 8)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 23, 13]
+[0m[1mTotal length:[0m 47
+[0m[1mLine len value:[0m 1.21
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96091952 to state 96092377:
+State ID: 96092377
+Depth: 39
+Move from: 1, 8
+Move to: 3, 4
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [0m__ [0m[1m[34m9S[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m7C[0m [1m[31mQD[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 8), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(1, 13)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 22, 13]
+[0m[1mTotal length:[0m 46
+[0m[1mLine len value:[0m 1.19
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96092377 to state 96092771:
+State ID: 96092771
+Depth: 40
+Move from: 1, 13
+Move to: 1, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m7C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 13), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(1, 10)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 21, 13]
+[0m[1mTotal length:[0m 45
+[0m[1mLine len value:[0m 1.16
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96092771 to state 96093296:
+State ID: 96093296
+Depth: 41
+Move from: 1, 10
+Move to: 1, 13
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [0m__ [0m[1m[34m9C[0m [1m[34m7C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (1, 10), (3, 6)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(3, 11)], [(0, 7)]]
+
+[0m[1mLine length:[0m [9, 2, 20, 13]
+[0m[1mTotal length:[0m 44
+[0m[1mLine len value:[0m 1.14
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96093296 to state 96094696:
+State ID: 96094696
+Depth: 42
+Move from: 3, 11
+Move to: 1, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m7C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [0m__ [0m[1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 11), (3, 6), (3, 11)]
+[0mMoves:[0m [[(3, 1)], [(1, 3)], [(0, 7)], [(1, 12)]]
+
+[0m[1mLine length:[0m [9, 2, 13, 19]
+[0m[1mTotal length:[0m 43
+[0m[1mLine len value:[0m 1.12
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96094696 to state 96095399:
+State ID: 96095399
+Depth: 43
+Move from: 0, 7
+Move to: 3, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m7C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 7), (0, 11), (3, 11)]
+[0mMoves:[0m [[(3, 1)], [(0, 1)], [(1, 3)], [(1, 12)]]
+
+[0m[1mLine length:[0m [9, 12, 2, 19]
+[0m[1mTotal length:[0m 42
+[0m[1mLine len value:[0m 1.09
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96095399 to state 96096300:
+State ID: 96096300
+Depth: 44
+Move from: 1, 12
+Move to: 3, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[1m[34m0C[0m [0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [0m__ [0m[1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 7), (0, 11), (1, 12)]
+[0mMoves:[0m [[(3, 1)], [(0, 1)], [(1, 3)], [(0, 6)]]
+
+[0m[1mLine length:[0m [9, 12, 2, 18]
+[0m[1mTotal length:[0m 41
+[0m[1mLine len value:[0m 1.07
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96096300 to state 96096777:
+State ID: 96096777
+Depth: 45
+Move from: 0, 6
+Move to: 1, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 5), (0, 6), (0, 7), (0, 11)]
+[0mMoves:[0m [[(3, 1)], None, None, [(1, 3)]]
+
+[0m[1mLine length:[0m [8, 17, 18, 2]
+[0m[1mTotal length:[0m 45
+[0m[1mLine len value:[0m 1.16
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96096777 to state 96097220:
+State ID: 96097220
+Depth: 46
+Move from: 3, 1
+Move to: 0, 5
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [0m__ [0m[0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [0m__ [0m[1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 6), (0, 7), (0, 11), (3, 1)]
+[0mMoves:[0m [[(3, 2)], None, [(1, 3)], [(2, 11)]]
+
+[0m[1mLine length:[0m [17, 18, 2, 7]
+[0m[1mTotal length:[0m 44
+[0m[1mLine len value:[0m 1.14
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96097220 to state 96097448:
+State ID: 96097448
+Depth: 47
+Move from: 3, 2
+Move to: 0, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [0m__ [0m[0m__ [0m[1m[34m7S[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 7), (0, 11), (3, 1), (3, 2)]
+[0mMoves:[0m [[(3, 3)], [(1, 3)], [(2, 11)], None]
+
+[0m[1mLine length:[0m [18, 2, 7, 16]
+[0m[1mTotal length:[0m 43
+[0m[1mLine len value:[0m 1.12
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96097448 to state 96097607:
+State ID: 96097607
+Depth: 48
+Move from: 3, 3
+Move to: 0, 7
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (3, 1), (3, 2), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(2, 11)], None, None]
+
+[0m[1mLine length:[0m [2, 7, 16, 17]
+[0m[1mTotal length:[0m 42
+[0m[1mLine len value:[0m 1.09
+
+[1m[32mScore:[0m 5
+
+
+Move from state 96097607 to state 96097723:
+State ID: 96097723
+Depth: 49
+Move from: 2, 11
+Move to: 3, 1
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [0m__ [0m[1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m2C[0m [0m__ [0m[0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 11), (3, 2), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(2, 4)], [(2, 12)], None]
+
+[0m[1mLine length:[0m [2, 6, 16, 17]
+[0m[1mTotal length:[0m 41
+[0m[1mLine len value:[0m 1.12
+
+[1m[32mScore:[0m 6
+
+
+Move from state 96097723 to state 96097865:
+State ID: 96097865
+Depth: 50
+Move from: 2, 4
+Move to: 2, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [0m__ [0m[1m[31m0H[0m [1m[31mJH[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m2C[0m [0m__ [0m[0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 4), (3, 2), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(2, 7)], [(2, 12)], None]
+
+[0m[1mLine length:[0m [2, 5, 16, 17]
+[0m[1mTotal length:[0m 40
+[0m[1mLine len value:[0m 1.10
+
+[1m[32mScore:[0m 6
+
+
+Move from state 96097865 to state 96098047:
+State ID: 96098047
+Depth: 51
+Move from: 2, 7
+Move to: 2, 4
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m0H[0m [1m[31mJH[0m [0m__ [0m[1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[34m3C[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m2C[0m [0m__ [0m[0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 7), (3, 2), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(3, 7)], [(2, 12)], None]
+
+[0m[1mLine length:[0m [2, 4, 16, 17]
+[0m[1mTotal length:[0m 39
+[0m[1mLine len value:[0m 1.12
+
+[1m[32mScore:[0m 7
+
+
+Move from state 96098047 to state 96098322:
+State ID: 96098322
+Depth: 52
+Move from: 2, 12
+Move to: 3, 2
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m0H[0m [1m[31mJH[0m [0m__ [0m[1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [0m__ [0m[1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 7), (2, 12), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(3, 7)], [(2, 5)], [(2, 13)]]
+
+[0m[1mLine length:[0m [2, 4, 15, 17]
+[0m[1mTotal length:[0m 38
+[0m[1mLine len value:[0m 1.15
+
+[1m[32mScore:[0m 8
+
+
+Move from state 96098322 to state 96098471:
+State ID: 96098471
+Depth: 53
+Move from: 2, 5
+Move to: 2, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [0m__ [0m[1m[31mJH[0m [0m__ [0m[1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 5), (2, 7), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(2, 8)], [(3, 7)], [(2, 13)]]
+
+[0m[1mLine length:[0m [2, 14, 4, 17]
+[0m[1mTotal length:[0m 37
+[0m[1mLine len value:[0m 1.12
+
+[1m[32mScore:[0m 8
+
+
+Move from state 96098471 to state 96098619:
+State ID: 96098619
+Depth: 54
+Move from: 2, 8
+Move to: 2, 5
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[0m__ [0m[1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[34m4C[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [0m__ [0m[1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 7), (2, 8), (3, 3)]
+[0mMoves:[0m [[(1, 3)], [(3, 7)], None, [(2, 13)]]
+
+[0m[1mLine length:[0m [2, 4, 13, 17]
+[0m[1mTotal length:[0m 36
+[0m[1mLine len value:[0m 1.15
+
+[1m[32mScore:[0m 9
+
+
+Move from state 96098619 to state 96098760:
+State ID: 96098760
+Depth: 55
+Move from: 2, 13
+Move to: 3, 3
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31mJH[0m [0m__ [0m[0m__ [0m[1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 7), (2, 8), (2, 13)]
+[0mMoves:[0m [[(1, 3)], [(3, 7)], None, [(2, 6)]]
+
+[0m[1mLine length:[0m [2, 4, 13, 16]
+[0m[1mTotal length:[0m 35
+[0m[1mLine len value:[0m 1.18
+
+[1m[32mScore:[0m 10
+
+
+Move from state 96098760 to state 96098876:
+State ID: 96098876
+Depth: 56
+Move from: 2, 6
+Move to: 2, 13
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 6), (2, 7), (2, 8)]
+[0mMoves:[0m [[(1, 3)], [(2, 9)], None, None]
+
+[0m[1mLine length:[0m [2, 15, 2, 5]
+[0m[1mTotal length:[0m 24
+[0m[1mLine len value:[0m 0.89
+
+[1m[32mScore:[0m 10
+
+
+Move from state 96098876 to state 96120632:
+State ID: 96120632
+Depth: 57
+Move from: 2, 9
+Move to: 2, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 7), (2, 8), (2, 9)]
+[0mMoves:[0m [[(1, 3)], [(2, 10)], None, None]
+
+[0m[1mLine length:[0m [2, 2, 5, 14]
+[0m[1mTotal length:[0m 23
+[0m[1mLine len value:[0m 0.92
+
+[1m[32mScore:[0m 11
+
+
+Move from state 96120632 to state 96138792:
+State ID: 96138792
+Depth: 58
+Move from: 2, 10
+Move to: 2, 7
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 8), (2, 9), (2, 10)]
+[0mMoves:[0m [[(1, 3)], [(2, 11)], None, None]
+
+[0m[1mLine length:[0m [2, 5, 14, 1]
+[0m[1mTotal length:[0m 22
+[0m[1mLine len value:[0m 0.94
+
+[1m[32mScore:[0m 12
+
+
+Move from state 96138792 to state 96142119:
+State ID: 96142119
+Depth: 59
+Move from: 2, 11
+Move to: 2, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[31m0H[0m [1m[31mJH[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 9), (2, 10), (2, 11)]
+[0mMoves:[0m [[(1, 3)], [(2, 12)], None, None]
+
+[0m[1mLine length:[0m [2, 14, 1, 4]
+[0m[1mTotal length:[0m 21
+[0m[1mLine len value:[0m 0.97
+
+[1m[32mScore:[0m 13
+
+
+Move from state 96142119 to state 96144403:
+State ID: 96144403
+Depth: 60
+Move from: 2, 12
+Move to: 2, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [0m__ [0m[0m__ [0m[0m__ [0m[1m[31mJH[0m 
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 10), (2, 11), (2, 12)]
+[0mMoves:[0m [[(1, 3)], [(2, 13)], None, None]
+
+[0m[1mLine length:[0m [2, 1, 4, 13]
+[0m[1mTotal length:[0m 20
+[0m[1mLine len value:[0m 1.00
+
+[1m[32mScore:[0m 14
+
+
+Move from state 96144403 to state 96144914:
+State ID: 96144914
+Depth: 61
+Move from: 2, 13
+Move to: 2, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [0m__ [0m[0m__ [0m[0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mQH[0m [1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 11), (2, 12), (2, 13)]
+[0mMoves:[0m [[(1, 3)], [(3, 7)], None, None]
+
+[0m[1mLine length:[0m [2, 4, 13, 0]
+[0m[1mTotal length:[0m 19
+[0m[1mLine len value:[0m 1.03
+
+[1m[32mScore:[0m 15
+
+
+Move from state 96144914 to state 96145285:
+State ID: 96145285
+Depth: 62
+Move from: 3, 7
+Move to: 2, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [0m__ [0m[0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [0m__ [0m[1m[31mKH[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 12), (2, 13), (3, 7)]
+[0mMoves:[0m [[(1, 3)], [(3, 8)], None, [(0, 8)]]
+
+[0m[1mLine length:[0m [2, 13, 0, 3]
+[0m[1mTotal length:[0m 18
+[0m[1mLine len value:[0m 1.06
+
+[1m[32mScore:[0m 16
+
+
+Move from state 96145285 to state 96146075:
+State ID: 96146075
+Depth: 63
+Move from: 3, 8
+Move to: 2, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [0m__ [0m[0m__ [0m[1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 7), (3, 8)]
+[0mMoves:[0m [[(1, 3)], None, [(0, 8)], None]
+
+[0m[1mLine length:[0m [2, 0, 4, 12]
+[0m[1mTotal length:[0m 18
+[0m[1mLine len value:[0m 1.13
+
+[1m[32mScore:[0m 17
+
+
+Move from state 96146075 to state 96146585:
+State ID: 96146585
+Depth: 64
+Move from: 0, 8
+Move to: 3, 7
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [0m__ [0m[1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m8S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [0m__ [0m[1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 8), (0, 11), (2, 13), (3, 8)]
+[0mMoves:[0m [[(3, 4)], [(1, 3)], None, [(0, 9)]]
+
+[0m[1mLine length:[0m [3, 2, 0, 12]
+[0m[1mTotal length:[0m 17
+[0m[1mLine len value:[0m 1.10
+
+[1m[32mScore:[0m 17
+
+
+Move from state 96146585 to state 96146869:
+State ID: 96146869
+Depth: 65
+Move from: 3, 4
+Move to: 0, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [0m__ [0m[1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [0m__ [0m[1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 4), (3, 8)]
+[0mMoves:[0m [[(1, 3)], None, [(3, 9)], [(0, 9)]]
+
+[0m[1mLine length:[0m [2, 0, 2, 12]
+[0m[1mTotal length:[0m 16
+[0m[1mLine len value:[0m 1.06
+
+[1m[32mScore:[0m 17
+
+
+Move from state 96146869 to state 96147103:
+State ID: 96147103
+Depth: 66
+Move from: 3, 9
+Move to: 3, 4
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m9D[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [0m__ [0m[0m__ [0m[1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 8), (3, 9)]
+[0mMoves:[0m [[(1, 3)], None, [(0, 9)], None]
+
+[0m[1mLine length:[0m [2, 0, 12, 1]
+[0m[1mTotal length:[0m 15
+[0m[1mLine len value:[0m 1.10
+
+[1m[32mScore:[0m 18
+
+
+Move from state 96147103 to state 96147300:
+State ID: 96147300
+Depth: 67
+Move from: 0, 9
+Move to: 3, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [0m__ [0m[1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 9), (0, 11), (2, 13), (3, 9)]
+[0mMoves:[0m [[(1, 9)], [(1, 3)], None, [(1, 6)]]
+
+[0m[1mLine length:[0m [11, 2, 0, 1]
+[0m[1mTotal length:[0m 14
+[0m[1mLine len value:[0m 1.07
+
+[1m[32mScore:[0m 18
+
+
+Move from state 96147300 to state 96147568:
+State ID: 96147568
+Depth: 68
+Move from: 1, 9
+Move to: 0, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31mKD[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [0m__ [0m[1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 9), (2, 13), (3, 9)]
+[0mMoves:[0m [[(1, 3)], [(1, 5)], None, [(1, 6)]]
+
+[0m[1mLine length:[0m [2, 10, 0, 1]
+[0m[1mTotal length:[0m 13
+[0m[1mLine len value:[0m 1.03
+
+[1m[32mScore:[0m 18
+
+
+Move from state 96147568 to state 96148296:
+State ID: 96148296
+Depth: 69
+Move from: 1, 5
+Move to: 1, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [0m__ [0m[1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 5), (2, 13), (3, 9)]
+[0mMoves:[0m [[(1, 3)], [(3, 5)], None, [(1, 6)]]
+
+[0m[1mLine length:[0m [2, 9, 0, 11]
+[0m[1mTotal length:[0m 22
+[0m[1mLine len value:[0m 1.33
+
+[1m[32mScore:[0m 18
+
+
+Move from state 96148296 to state 96148601:
+State ID: 96148601
+Depth: 70
+Move from: 3, 5
+Move to: 1, 5
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [0m__ [0m[1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[1m[34m6C[0m [1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 5), (3, 9)]
+[0mMoves:[0m [[(1, 3)], None, [(3, 10)], [(1, 6)]]
+
+[0m[1mLine length:[0m [2, 0, 8, 11]
+[0m[1mTotal length:[0m 21
+[0m[1mLine len value:[0m 1.30
+
+[1m[32mScore:[0m 18
+
+
+Move from state 96148601 to state 96149062:
+State ID: 96149062
+Depth: 71
+Move from: 3, 10
+Move to: 3, 5
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[0m__ [0m[1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 9), (3, 10)]
+[0mMoves:[0m [[(1, 3)], None, [(1, 6)], None]
+
+[0m[1mLine length:[0m [2, 0, 11, 7]
+[0m[1mTotal length:[0m 20
+[0m[1mLine len value:[0m 1.34
+
+[1m[32mScore:[0m 19
+
+
+Move from state 96149062 to state 96149470:
+State ID: 96149470
+Depth: 72
+Move from: 1, 6
+Move to: 3, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [0m__ [0m[1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 6), (2, 13), (3, 10)]
+[0mMoves:[0m [[(1, 3)], [(3, 6)], None, [(1, 7)]]
+
+[0m[1mLine length:[0m [2, 10, 0, 7]
+[0m[1mTotal length:[0m 19
+[0m[1mLine len value:[0m 1.31
+
+[1m[32mScore:[0m 19
+
+
+Move from state 96149470 to state 96149830:
+State ID: 96149830
+Depth: 73
+Move from: 3, 6
+Move to: 1, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [0m__ [0m[1m[34m7C[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 6), (3, 10)]
+[0mMoves:[0m [[(1, 3)], None, [(3, 11)], [(1, 7)]]
+
+[0m[1mLine length:[0m [2, 0, 9, 7]
+[0m[1mTotal length:[0m 18
+[0m[1mLine len value:[0m 1.28
+
+[1m[32mScore:[0m 19
+
+
+Move from state 96149830 to state 96150213:
+State ID: 96150213
+Depth: 74
+Move from: 3, 11
+Move to: 3, 6
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [0m__ [0m[0m__ [0m[1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 10), (3, 11)]
+[0mMoves:[0m [[(1, 3)], None, [(1, 7)], None]
+
+[0m[1mLine length:[0m [2, 0, 7, 8]
+[0m[1mTotal length:[0m 17
+[0m[1mLine len value:[0m 1.32
+
+[1m[32mScore:[0m 20
+
+
+Move from state 96150213 to state 96150516:
+State ID: 96150516
+Depth: 75
+Move from: 1, 7
+Move to: 3, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [0m__ [0m[1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 7), (2, 13), (3, 11)]
+[0mMoves:[0m [[(1, 3)], [(3, 7)], None, [(1, 8)]]
+
+[0m[1mLine length:[0m [2, 6, 0, 8]
+[0m[1mTotal length:[0m 16
+[0m[1mLine len value:[0m 1.29
+
+[1m[32mScore:[0m 20
+
+
+Move from state 96150516 to state 96151690:
+State ID: 96151690
+Depth: 76
+Move from: 3, 7
+Move to: 1, 7
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34m8C[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [0m__ [0m[1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (2, 13), (3, 7), (3, 11)]
+[0mMoves:[0m [[(1, 3)], None, [(1, 13)], [(1, 8)]]
+
+[0m[1mLine length:[0m [2, 0, 5, 8]
+[0m[1mTotal length:[0m 15
+[0m[1mLine len value:[0m 1.25
+
+[1m[32mScore:[0m 20
+
+
+Move from state 96151690 to state 96152082:
+State ID: 96152082
+Depth: 77
+Move from: 1, 13
+Move to: 3, 7
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 13), (2, 13), (3, 11)]
+[0mMoves:[0m [[(1, 3)], [(0, 1)], None, [(1, 8)]]
+
+[0m[1mLine length:[0m [2, 4, 0, 8]
+[0m[1mTotal length:[0m 14
+[0m[1mLine len value:[0m 1.30
+
+[1m[32mScore:[0m 21
+
+
+Move from state 96152082 to state 96152408:
+State ID: 96152408
+Depth: 78
+Move from: 1, 8
+Move to: 3, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [0m__ [0m[1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 8), (1, 13), (2, 13)]
+[0mMoves:[0m [[(1, 3)], [(3, 8)], [(0, 1)], None]
+
+[0m[1mLine length:[0m [2, 7, 4, 0]
+[0m[1mTotal length:[0m 13
+[0m[1mLine len value:[0m 1.26
+
+[1m[32mScore:[0m 21
+
+
+Move from state 96152408 to state 96152644:
+State ID: 96152644
+Depth: 79
+Move from: 3, 8
+Move to: 1, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34m9C[0m [1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [0m__ [0m[1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 13), (2, 13), (3, 8)]
+[0mMoves:[0m [[(1, 3)], [(0, 1)], None, [(1, 11)]]
+
+[0m[1mLine length:[0m [2, 4, 0, 6]
+[0m[1mTotal length:[0m 12
+[0m[1mLine len value:[0m 1.22
+
+[1m[32mScore:[0m 21
+
+
+Move from state 96152644 to state 96152775:
+State ID: 96152775
+Depth: 80
+Move from: 1, 11
+Move to: 3, 8
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31mKD[0m [1m[34m0S[0m [0m__ [0m[1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mJS[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 11), (1, 13), (2, 13)]
+[0mMoves:[0m [[(1, 3)], [(3, 12)], [(0, 1)], None]
+
+[0m[1mLine length:[0m [2, 5, 4, 0]
+[0m[1mTotal length:[0m 11
+[0m[1mLine len value:[0m 1.27
+
+[1m[32mScore:[0m 22
+
+
+Move from state 96152775 to state 96152919:
+State ID: 96152919
+Depth: 81
+Move from: 3, 12
+Move to: 1, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31mKD[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [0m__ [0m[1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 13), (2, 13), (3, 12)]
+[0mMoves:[0m [[(1, 3)], [(0, 1)], None, [(1, 9)]]
+
+[0m[1mLine length:[0m [2, 4, 0, 4]
+[0m[1mTotal length:[0m 10
+[0m[1mLine len value:[0m 1.23
+
+[1m[32mScore:[0m 22
+
+
+Move from state 96152919 to state 96153088:
+State ID: 96153088
+Depth: 82
+Move from: 1, 9
+Move to: 3, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[1m[34m0S[0m [1m[34mJS[0m [1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 9), (1, 13), (2, 13)]
+[0mMoves:[0m [[(1, 3)], [(3, 9)], [(0, 1)], None]
+
+[0m[1mLine length:[0m [2, 3, 4, 0]
+[0m[1mTotal length:[0m 9
+[0m[1mLine len value:[0m 1.19
+
+[1m[32mScore:[0m 22
+
+
+Move from state 96153088 to state 96154048:
+State ID: 96154048
+Depth: 83
+Move from: 3, 9
+Move to: 1, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34m0C[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [0m__ [0m[1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 13), (2, 13), (3, 9)]
+[0mMoves:[0m [[(1, 3)], [(0, 1)], None, [(1, 12)]]
+
+[0m[1mLine length:[0m [2, 4, 0, 2]
+[0m[1mTotal length:[0m 8
+[0m[1mLine len value:[0m 1.15
+
+[1m[32mScore:[0m 22
+
+
+Move from state 96154048 to state 96154259:
+State ID: 96154259
+Depth: 84
+Move from: 1, 12
+Move to: 3, 9
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m[0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mQS[0m 
+
+[0mSpaces:[0m [(0, 11), (1, 12), (1, 13), (2, 13)]
+[0mMoves:[0m [[(1, 3)], [(3, 13)], None, None]
+
+[0m[1mLine length:[0m [2, 1, 29, 0]
+[0m[1mTotal length:[0m 32
+[0m[1mLine len value:[0m 2.20
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154259 to state 96154280:
+State ID: 96154280
+Depth: 85
+Move from: 3, 13
+Move to: 1, 12
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [1m[34mKS[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 11), (1, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 3)], [(0, 13)], None, None]
+
+[0m[1mLine length:[0m [2, 29, 0, 0]
+[0m[1mTotal length:[0m 31
+[0m[1mLine len value:[0m 2.16
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154280 to state 96154284:
+State ID: 96154284
+Depth: 86
+Move from: 0, 13
+Move to: 1, 13
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m3D[0m [0m__ [0m[1m[31m2D[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 11), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 3)], [(0, 10)], None, None]
+
+[0m[1mLine length:[0m [2, 28, 0, 0]
+[0m[1mTotal length:[0m 30
+[0m[1mLine len value:[0m 2.12
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154284 to state 96154295:
+State ID: 96154295
+Depth: 87
+Move from: 0, 10
+Move to: 0, 13
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [0m__ [0m[0m__ [0m[1m[31m2D[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 10), (0, 11), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 10)], None, None, None]
+
+[0m[1mLine length:[0m [27, 5, 0, 0]
+[0m[1mTotal length:[0m 32
+[0m[1mLine len value:[0m 2.20
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154295 to state 96154297:
+State ID: 96154297
+Depth: 88
+Move from: 1, 10
+Move to: 0, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [0m__ [0m[1m[31m2D[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 11), (1, 10), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 11)], [(3, 10)], None, None]
+
+[0m[1mLine length:[0m [5, 26, 0, 0]
+[0m[1mTotal length:[0m 31
+[0m[1mLine len value:[0m 2.16
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154297 to state 96154299:
+State ID: 96154299
+Depth: 89
+Move from: 1, 11
+Move to: 0, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31m2D[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [0m__ [0m[0m__ [0m[1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(1, 10), (1, 11), (2, 13), (3, 13)]
+[0mMoves:[0m [[(3, 10)], None, None, None]
+
+[0m[1mLine length:[0m [26, 4, 0, 0]
+[0m[1mTotal length:[0m 30
+[0m[1mLine len value:[0m 2.12
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154299 to state 96154302:
+State ID: 96154302
+Depth: 90
+Move from: 3, 10
+Move to: 1, 10
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31m2D[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [0m__ [0m[1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [0m__ [0m[1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(1, 11), (2, 13), (3, 10), (3, 13)]
+[0mMoves:[0m [[(3, 11)], None, [(0, 1)], None]
+
+[0m[1mLine length:[0m [4, 0, 25, 0]
+[0m[1mTotal length:[0m 29
+[0m[1mLine len value:[0m 2.08
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154302 to state 96154316:
+State ID: 96154316
+Depth: 91
+Move from: 3, 11
+Move to: 1, 11
+[1m[31mAD[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31m2D[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [0m__ [0m[0m__ [0m[1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(2, 13), (3, 10), (3, 11), (3, 13)]
+[0mMoves:[0m [None, [(0, 1)], None, None]
+
+[0m[1mLine length:[0m [0, 25, 3, 0]
+[0m[1mTotal length:[0m 28
+[0m[1mLine len value:[0m 2.04
+
+[1m[32mScore:[0m 23
+
+
+Move from state 96154316 to state 96154323:
+State ID: 96154323
+Depth: 92
+Move from: 0, 1
+Move to: 3, 10
+[1m[31mAD[0m [0m__ [0m[1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31m2D[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [0m__ [0m[1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 1), (2, 13), (3, 11), (3, 13)]
+[0mMoves:[0m [[(0, 12)], None, [(0, 2)], None]
+
+[0m[1mLine length:[0m [24, 0, 3, 0]
+[0m[1mTotal length:[0m 27
+[0m[1mLine len value:[0m 2.12
+
+[1m[32mScore:[0m 24
+
+
+Move from state 96154323 to state 96154337:
+State ID: 96154337
+Depth: 93
+Move from: 0, 12
+Move to: 0, 1
+[1m[31mAD[0m [1m[31m2D[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m[1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mQS[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [0m__ [0m[1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 12), (2, 13), (3, 11), (3, 13)]
+[0mMoves:[0m [[(1, 12)], None, [(0, 2)], None]
+
+[0m[1mLine length:[0m [23, 0, 3, 0]
+[0m[1mTotal length:[0m 26
+[0m[1mLine len value:[0m 2.22
+
+[1m[32mScore:[0m 25
+
+
+Move from state 96154337 to state 96154352:
+State ID: 96154352
+Depth: 94
+Move from: 1, 12
+Move to: 0, 12
+[1m[31mAD[0m [1m[31m2D[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [0m__ [0m[1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [0m__ [0m[1m[31mKD[0m [0m__ [0m
+
+[0mSpaces:[0m [(1, 12), (2, 13), (3, 11), (3, 13)]
+[0mMoves:[0m [[(3, 12)], None, [(0, 2)], None]
+
+[0m[1mLine length:[0m [22, 0, 3, 0]
+[0m[1mTotal length:[0m 25
+[0m[1mLine len value:[0m 2.17
+
+[1m[32mScore:[0m 25
+
+
+Move from state 96154352 to state 96154354:
+State ID: 96154354
+Depth: 95
+Move from: 3, 12
+Move to: 1, 12
+[1m[31mAD[0m [1m[31m2D[0m [1m[34mQC[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [0m__ [0m[0m__ [0m[0m__ [0m
+
+[0mSpaces:[0m [(2, 13), (3, 11), (3, 12), (3, 13)]
+[0mMoves:[0m [None, [(0, 2)], None, None]
+
+[0m[1mLine length:[0m [0, 3, 21, 0]
+[0m[1mTotal length:[0m 24
+[0m[1mLine len value:[0m 2.13
+
+[1m[32mScore:[0m 25
+
+
+Move from state 96154354 to state 96154389:
+State ID: 96154389
+Depth: 96
+Move from: 0, 2
+Move to: 3, 11
+[1m[31mAD[0m [1m[31m2D[0m [0m__ [0m[1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[31m3D[0m 
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [0m__ [0m[0m__ [0m
+
+[0mSpaces:[0m [(0, 2), (2, 13), (3, 12), (3, 13)]
+[0mMoves:[0m [[(0, 13)], None, [(0, 3)], None]
+
+[0m[1mLine length:[0m [2, 0, 21, 0]
+[0m[1mTotal length:[0m 23
+[0m[1mLine len value:[0m 2.23
+
+[1m[32mScore:[0m 26
+
+
+Move from state 96154389 to state 96154403:
+State ID: 96154403
+Depth: 97
+Move from: 0, 13
+Move to: 0, 2
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[34mKC[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [0m__ [0m[0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (2, 13), (3, 12), (3, 13)]
+[0mMoves:[0m [[(1, 13)], None, [(0, 3)], None]
+
+[0m[1mLine length:[0m [1, 0, 21, 0]
+[0m[1mTotal length:[0m 22
+[0m[1mLine len value:[0m 2.33
+
+[1m[32mScore:[0m 27
+
+
+Move from state 96154403 to state 96154412:
+State ID: 96154412
+Depth: 98
+Move from: 0, 3
+Move to: 3, 12
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [0m__ [0m[1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 3), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 3)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [20, 1, 0, 0]
+[0m[1mTotal length:[0m 21
+[0m[1mLine len value:[0m 2.45
+
+[1m[32mScore:[0m 28
+
+
+Move from state 96154412 to state 96154424:
+State ID: 96154424
+Depth: 99
+Move from: 1, 3
+Move to: 0, 3
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [0m__ [0m[1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 3), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 4)], None, None]
+
+[0m[1mLine length:[0m [1, 19, 0, 0]
+[0m[1mTotal length:[0m 20
+[0m[1mLine len value:[0m 2.58
+
+[1m[32mScore:[0m 29
+
+
+Move from state 96154424 to state 96154465:
+State ID: 96154465
+Depth: 100
+Move from: 0, 4
+Move to: 1, 3
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [0m__ [0m[1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 4), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 4)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [18, 1, 0, 0]
+[0m[1mTotal length:[0m 19
+[0m[1mLine len value:[0m 2.72
+
+[1m[32mScore:[0m 30
+
+
+Move from state 96154465 to state 96154472:
+State ID: 96154472
+Depth: 101
+Move from: 1, 4
+Move to: 0, 4
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [0m__ [0m[1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 4), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 5)], None, None]
+
+[0m[1mLine length:[0m [1, 17, 0, 0]
+[0m[1mTotal length:[0m 18
+[0m[1mLine len value:[0m 2.88
+
+[1m[32mScore:[0m 31
+
+
+Move from state 96154472 to state 96154478:
+State ID: 96154478
+Depth: 102
+Move from: 0, 5
+Move to: 1, 4
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [0m__ [0m[1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 5), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 5)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [16, 1, 0, 0]
+[0m[1mTotal length:[0m 17
+[0m[1mLine len value:[0m 3.06
+
+[1m[32mScore:[0m 32
+
+
+Move from state 96154478 to state 96154483:
+State ID: 96154483
+Depth: 103
+Move from: 1, 5
+Move to: 0, 5
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [0m__ [0m[1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 5), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 6)], None, None]
+
+[0m[1mLine length:[0m [1, 15, 0, 0]
+[0m[1mTotal length:[0m 16
+[0m[1mLine len value:[0m 3.27
+
+[1m[32mScore:[0m 33
+
+
+Move from state 96154483 to state 96154487:
+State ID: 96154487
+Depth: 104
+Move from: 0, 6
+Move to: 1, 5
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [0m__ [0m[1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 6), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 6)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [14, 1, 0, 0]
+[0m[1mTotal length:[0m 15
+[0m[1mLine len value:[0m 3.50
+
+[1m[32mScore:[0m 34
+
+
+Move from state 96154487 to state 96154495:
+State ID: 96154495
+Depth: 105
+Move from: 1, 6
+Move to: 0, 6
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [0m__ [0m[1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 6), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 7)], None, None]
+
+[0m[1mLine length:[0m [1, 13, 0, 0]
+[0m[1mTotal length:[0m 14
+[0m[1mLine len value:[0m 3.77
+
+[1m[32mScore:[0m 35
+
+
+Move from state 96154495 to state 96154504:
+State ID: 96154504
+Depth: 106
+Move from: 0, 7
+Move to: 1, 6
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [0m__ [0m[1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 7), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 7)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [12, 1, 0, 0]
+[0m[1mTotal length:[0m 13
+[0m[1mLine len value:[0m 4.08
+
+[1m[32mScore:[0m 36
+
+
+Move from state 96154504 to state 96154508:
+State ID: 96154508
+Depth: 107
+Move from: 1, 7
+Move to: 0, 7
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [0m__ [0m[1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 7), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 8)], None, None]
+
+[0m[1mLine length:[0m [1, 11, 0, 0]
+[0m[1mTotal length:[0m 12
+[0m[1mLine len value:[0m 4.45
+
+[1m[32mScore:[0m 37
+
+
+Move from state 96154508 to state 96154512:
+State ID: 96154512
+Depth: 108
+Move from: 0, 8
+Move to: 1, 7
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [0m__ [0m[1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 8), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 8)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [10, 1, 0, 0]
+[0m[1mTotal length:[0m 11
+[0m[1mLine len value:[0m 4.90
+
+[1m[32mScore:[0m 38
+
+
+Move from state 96154512 to state 96154517:
+State ID: 96154517
+Depth: 109
+Move from: 1, 8
+Move to: 0, 8
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [0m__ [0m[1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 8), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 9)], None, None]
+
+[0m[1mLine length:[0m [1, 9, 0, 0]
+[0m[1mTotal length:[0m 10
+[0m[1mLine len value:[0m 5.44
+
+[1m[32mScore:[0m 39
+
+
+Move from state 96154517 to state 96154549:
+State ID: 96154549
+Depth: 110
+Move from: 0, 9
+Move to: 1, 8
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [0m__ [0m[1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 9), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 9)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [8, 1, 0, 0]
+[0m[1mTotal length:[0m 9
+[0m[1mLine len value:[0m 6.12
+
+[1m[32mScore:[0m 40
+
+
+Move from state 96154549 to state 96154553:
+State ID: 96154553
+Depth: 111
+Move from: 1, 9
+Move to: 0, 9
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [0m__ [0m[1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 9), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 10)], None, None]
+
+[0m[1mLine length:[0m [1, 7, 0, 0]
+[0m[1mTotal length:[0m 8
+[0m[1mLine len value:[0m 7.00
+
+[1m[32mScore:[0m 41
+
+
+Move from state 96154553 to state 96154562:
+State ID: 96154562
+Depth: 112
+Move from: 0, 10
+Move to: 1, 9
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [0m__ [0m[1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 10), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 10)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [6, 1, 0, 0]
+[0m[1mTotal length:[0m 7
+[0m[1mLine len value:[0m 8.17
+
+[1m[32mScore:[0m 42
+
+
+Move from state 96154562 to state 96154568:
+State ID: 96154568
+Depth: 113
+Move from: 1, 10
+Move to: 0, 10
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [0m__ [0m[1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 10), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 11)], None, None]
+
+[0m[1mLine length:[0m [1, 5, 0, 0]
+[0m[1mTotal length:[0m 6
+[0m[1mLine len value:[0m 9.80
+
+[1m[32mScore:[0m 43
+
+
+Move from state 96154568 to state 96154575:
+State ID: 96154575
+Depth: 114
+Move from: 0, 11
+Move to: 1, 10
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [0m__ [0m[1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[31mQD[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 11), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 11)], [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [4, 1, 0, 0]
+[0m[1mTotal length:[0m 5
+[0m[1mLine len value:[0m 12.25
+
+[1m[32mScore:[0m 44
+
+
+Move from state 96154575 to state 96154578:
+State ID: 96154578
+Depth: 115
+Move from: 1, 11
+Move to: 0, 11
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[34mQS[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [0m__ [0m[1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 11), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 13)], [(0, 12)], None, None]
+
+[0m[1mLine length:[0m [1, 3, 0, 0]
+[0m[1mTotal length:[0m 4
+[0m[1mLine len value:[0m 16.33
+
+[1m[32mScore:[0m 45
+
+
+Move from state 96154578 to state 96154582:
+State ID: 96154582
+Depth: 116
+Move from: 0, 12
+Move to: 1, 11
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [0m__ [0m[0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[31mKD[0m [1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 12), (0, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [[(1, 12)], None, None, None]
+
+[0m[1mLine length:[0m [2, 0, 0, 0]
+[0m[1mTotal length:[0m 2
+[0m[1mLine len value:[0m 24.00
+
+[1m[32mScore:[0m 46
+
+
+Move from state 96154582 to state 96154585:
+State ID: 96154585
+Depth: 117
+Move from: 1, 12
+Move to: 0, 12
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [0m__ [0m[1m[34mKS[0m 
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 12), (2, 13), (3, 13)]
+[0mMoves:[0m [None, [(1, 13)], None, None]
+
+[0m[1mLine length:[0m [0, 1, 0, 0]
+[0m[1mTotal length:[0m 1
+[0m[1mLine len value:[0m 48.00
+
+[1m[32mScore:[0m 47
+
+
+Move from state 96154585 to state 96154588:
+State ID: 96154588
+Depth: 118
+Move from: 1, 13
+Move to: 1, 12
+[1m[31mAD[0m [1m[31m2D[0m [1m[31m3D[0m [1m[31m4D[0m [1m[31m5D[0m [1m[31m6D[0m [1m[31m7D[0m [1m[31m8D[0m [1m[31m9D[0m [1m[31m0D[0m [1m[31mJD[0m [1m[31mQD[0m [1m[31mKD[0m [0m__ [0m
+[1m[34mAS[0m [1m[34m2S[0m [1m[34m3S[0m [1m[34m4S[0m [1m[34m5S[0m [1m[34m6S[0m [1m[34m7S[0m [1m[34m8S[0m [1m[34m9S[0m [1m[34m0S[0m [1m[34mJS[0m [1m[34mQS[0m [1m[34mKS[0m [0m__ [0m
+[1m[31mAH[0m [1m[31m2H[0m [1m[31m3H[0m [1m[31m4H[0m [1m[31m5H[0m [1m[31m6H[0m [1m[31m7H[0m [1m[31m8H[0m [1m[31m9H[0m [1m[31m0H[0m [1m[31mJH[0m [1m[31mQH[0m [1m[31mKH[0m [0m__ [0m
+[1m[34mAC[0m [1m[34m2C[0m [1m[34m3C[0m [1m[34m4C[0m [1m[34m5C[0m [1m[34m6C[0m [1m[34m7C[0m [1m[34m8C[0m [1m[34m9C[0m [1m[34m0C[0m [1m[34mJC[0m [1m[34mQC[0m [1m[34mKC[0m [0m__ [0m
+
+[0mSpaces:[0m [(0, 13), (1, 13), (2, 13), (3, 13)]
+[0mMoves:[0m [None, None, None, None]
+
+[0m[1mLine length:[0m [0, 0, 0, 0]
+[0m[1mTotal length:[0m 0
+[0m[1mLine len value:[0m 0.00
+
+[1m[32mScore:[0m 48
+
