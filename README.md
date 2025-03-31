@@ -4,19 +4,19 @@ Spaces and Aces Solitaire
 
 ## Features
 
-To be added
+Components included (game engine, analysis tools, database schema)
 
 ## Installation
 
-To be added
+Run with Python interpreter and SQLite database. 
 
 ## Usage
-
-Examples of how to use the project.
+SSD recommended for the database.
+Upcoming academic paper is planned.
 
 ## Contributing
 
-How others can contribute to the project.
+To be added.
 
 ## License
 
